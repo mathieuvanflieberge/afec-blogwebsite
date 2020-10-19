@@ -1,7 +1,7 @@
 ---
-title: 'Een tweede kunstwerk'
-summary: 'Kortere beschrijving van mijn tweede werk'
-image: '/img/11ty-logo.png'
+title: 'A Label'
+summary: 'Logo I made for a singer songwriter agency.'
+image: '/img/ALABEL_Portfolio.jpg'
 displayOrder: 2
 featured: true
 layout: 'layouts/work.html'

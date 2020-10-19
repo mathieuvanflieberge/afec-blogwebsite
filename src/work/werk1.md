@@ -1,7 +1,7 @@
 ---
 title: 'Mijn meesterwerk'
-summary: 'Kortere beschrijving van mijn meesterwerk'
-image: '/img/11ty-logo.png'
+summary: 'Logo I made for a speech therapist'
+image: '/img/DELOGOPEDIE_Portfolio.jpg'
 displayOrder: 1
 featured: true
 layout: 'layouts/work.html'
