@@ -5,16 +5,16 @@
       "url": "/"
     },
     {
-      "text": "Portfolio",
-      "url": "/portfolio/"
-    },
-    {
       "text": "Work",
       "url": "/work/"
     },
     {
       "text": "Blog",
       "url": "/blog/"
+    },
+    {
+      "text": "About",
+      "url": "/about/"
     },
     {
       "text": "Contact",
