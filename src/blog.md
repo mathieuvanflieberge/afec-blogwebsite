@@ -1,5 +1,5 @@
 ---
-title: 'The Blog'
+title: 'Blog'
 layout: 'layouts/blog.html'
 pagination:
   data: collections.blog

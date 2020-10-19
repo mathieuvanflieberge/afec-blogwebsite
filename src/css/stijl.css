@@ -28,7 +28,7 @@ header nav ul li a {
 
 header nav ul li a.selected {
 	color: white;
-	background-color: black;
+	background-color: #9013fe;
 }
 
 header {
@@ -62,7 +62,7 @@ main h3 {
 }
 
 main ul.blog li a {
-	color: firebrick;
+	color: black;
 }
 
 main ul.blog li {
