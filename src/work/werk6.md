@@ -1,8 +1,8 @@
 ---
-title: 'De Logopedie'
-summary: 'Logo I made for a speech therapist'
-image: '/img/DELOGOPEDIE_Portfolio.jpg'
-displayOrder: 1
+title: 'The Oasis'
+summary: 'Logo I made for a virtual reality gaming hall'
+image: '/img/THEOASIS_Portfolio.jpg'
+displayOrder: 6
 featured: true
 layout: 'layouts/work.html'
 ---

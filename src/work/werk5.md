@@ -1,8 +1,8 @@
 ---
-title: 'De Logopedie'
-summary: 'Logo I made for a speech therapist'
-image: '/img/DELOGOPEDIE_Portfolio.jpg'
-displayOrder: 1
+title: 'Thaïsa is here'
+summary: 'Logo I made for a blod website'
+image: '/img/THAISAISHERE_Portfolio.jpg'
+displayOrder: 5
 featured: true
 layout: 'layouts/work.html'
 ---

@@ -1,8 +1,8 @@
 ---
-title: 'De Logopedie'
-summary: 'Logo I made for a speech therapist'
-image: '/img/DELOGOPEDIE_Portfolio.jpg'
-displayOrder: 1
+title: 'Oneliner'
+summary: 'Logo I made for a clothing brand'
+image: '/img/ONELINER_Portfolio.jpg'
+displayOrder: 4
 featured: true
 layout: 'layouts/work.html'
 ---

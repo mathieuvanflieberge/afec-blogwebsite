@@ -1,8 +1,8 @@
 ---
-title: 'De Logopedie'
-summary: 'Logo I made for a speech therapist'
-image: '/img/DELOGOPEDIE_Portfolio.jpg'
-displayOrder: 1
+title: 'Goeien Handel'
+summary: 'Logo I made for a fairtrade webshop'
+image: '/img/GOEIENHANDEL_Portfolio.jpg'
+displayOrder: 3
 featured: true
 layout: 'layouts/work.html'
 ---
