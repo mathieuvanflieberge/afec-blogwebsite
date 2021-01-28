@@ -1,7 +1,7 @@
 ---
 title: 'Contact'
 layout: 'layouts/page.html'
-custom_css: ''
+custom_css: 'footer {visibility: visible; font-size:0.5rem;} p {font-size: 2rem} p {font-family: Roboto} main {margin-top: 15%;}'
 ---
 
 Ellermanstraat 33,  <br>

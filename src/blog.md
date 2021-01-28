@@ -1,6 +1,7 @@
 ---
 title: 'Blog'
 layout: 'layouts/blog.html'
+custom_css: 'p {font-size: 1em} main, footer {font-family: Roboto}'
 pagination:
   data: collections.blog
   size: 2
