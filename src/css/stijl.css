@@ -1,3 +1,9 @@
+html {
+	background-image: radial-gradient(#9013fe 1.5px, #ffffff 0.5px);
+	background-size: 55px 55px;
+}
+
+
 body {
 	width: 80vw;
 	margin: 5rem auto;
@@ -35,6 +41,7 @@ header nav ul li a:hover {
 	border-radius: 0.5rem;
 	background-color: #9013fe;
 	text-decoration: none;
+	transition: .5s;
 }
 
 header nav ul li a.selected {
@@ -63,7 +70,7 @@ img {
 
 main img {
 	display: block;
-	margin: 0 auto 3rem auto;
+	margin: 0 auto 0rem auto;
 }
 
 main h3 {
@@ -84,29 +91,101 @@ main {
 	margin-bottom: 5rem;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 500px) {
 	header nav ul {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
 		width: 40rem;
-		margin-top: 0;
+		margin-top: 3rem;
+	}
+
+	header nav ul li a{
+		margin-top: 1rem;
 	}
 
 	header nav {
 		position: absolute;
-		top: 5.5rem;
+		top: 7.5rem;
 		right: 10vw;
+	}
+
+	header {
+		margin-bottom: 8rem;
+	}
+
+	#grid {
+		width: 100%;
+	}
+
+	#work {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 0px;
 	}
 }
 
 /* My Styles */
 
-#dot {
+.highlight {
 	color: #9013fe;
+	font-weight: bolder;
+	text-transform: uppercase;
 }
 
 #insta {
 	font-size: 0.3em;
 	line-height: 300%;
+}
+
+#work {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 0px;
+}
+
+#table {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+}
+
+.header{
+	color: white;
+	padding: 1rem;
+	border-radius: 0.5rem;
+	background-color: #9013fe;
+	width: 100%;
+}
+
+.effect {
+		transition: transform .2s;
+}
+
+#work a:hover {
+	transform: scale(1.05);
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+#mail{
+	color:white;
+	background-color:#9013fe;
+	border-radius: 0.5rem;
+	padding:1rem;
+	text-decoration: none;
+}
+
+form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
