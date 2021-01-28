@@ -73,13 +73,12 @@ main {
 	margin-bottom: 5rem;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 500px) {
 	header nav ul {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
 		width: 40rem;
-		margin-top: 0;
 	}
 
 	header nav ul li {
@@ -88,9 +87,15 @@ main {
 
 	header nav {
 		position: absolute;
-		top: 5.5rem;
+		top: 10rem;
 		right: 10vw;
 	}
+
+	main p {
+		position: absolute;
+		top: 25rem;
+	}
+
 }
 
 /* My Styles */
@@ -101,5 +106,24 @@ main {
 
 #insta {
 	font-size: 0.3em;
-	line-height: 300%;
+}
+
+#insta a {
+	text-decoration: none;
+	color: #000000;
+}
+
+#insta a:hover {
+	text-decoration: underline;
+}
+
+#inter {
+	line-height: 85%;
+}
+
+footer p {
+	position: absolute;
+	visibility: visible;
+	bottom: 1rem;
+	font-size: 0.5em;
 }

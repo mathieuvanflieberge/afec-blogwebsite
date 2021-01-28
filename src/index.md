@@ -6,6 +6,6 @@ custom_css: 'footer {visibility: hidden} p {font-size: 2.5em} p {font-family: Ro
 
 Hi, I'm Mathieu<span id="dot">.</span>
 <br>
-<span id="insta">@mathieuvanflieberge</span>
+<span id="insta">@<a target="_blank" href="https://www.instagram.com/mathieuvanflieberge/">mathieuvanflieberge</a></span>
 <br><br>
-A minimal crossmedia design expert.
+<span id="inter">A minimal crossmedia design expert.</span>
