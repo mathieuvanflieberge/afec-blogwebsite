@@ -12,7 +12,7 @@ custom_css: 'footer {visibility: visible; font-size:2rem; font-weight:400;} div 
   <br><br><br>
   hello@mathieuatwork.be
   <br><br>
-  <a id="mail" href="mailto:hello@mathieuatwork.be">Stuur mij een e-mail!<a>
+  <a id="mail" href="mailto:hello@mathieuatwork.be">Stuur mij een e-mail<a>
   </div>
   <br>
   <br>
