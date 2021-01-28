@@ -64,10 +64,6 @@ main p {
 	margin-bottom: 3rem;
 }
 
-img {
-	max-width: 100%;
-}
-
 main img {
 	display: block;
 	margin: 0 auto 0rem auto;
@@ -131,6 +127,19 @@ main {
 	color: #9013fe;
 	font-weight: bolder;
 	text-transform: uppercase;
+}
+
+#aboutgrid {
+	display: grid;
+	grid-template-columns: 0.3fr 1fr;
+}
+
+#aboutgrid img {
+	float: left;
+}
+
+img {
+	max-width: 100%
 }
 
 #insta {

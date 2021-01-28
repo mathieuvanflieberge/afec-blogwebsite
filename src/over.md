@@ -17,3 +17,17 @@ custom_css: 'footer {visibility: visible; font-size:0.5rem;} p {font-size: 2rem}
 <br>
 <h1>Wie ben ik?</h1>
 <br>
+
+<div id="aboutgrid">
+  <div>
+    <img src="/img/Profiel_Portfolio.jpg" width="100%">
+  </div>
+  <div>
+  <ul>
+    <li>25 jaar</li>
+    <li>Creatief</li>
+    <li>Teamplayer</li>
+    <li>Goedlachs</li>
+  </ul>
+  </div>
+</div>

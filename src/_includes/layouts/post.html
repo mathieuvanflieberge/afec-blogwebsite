@@ -3,6 +3,8 @@
 {% block content %}
  	<h3>Blogpost: {{title }}</h3>
 	<time datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>
+  <br>
+  <br>
   {{ content | safe }}
 	<p>Deze post werd gepubliceerd op {{ date  }}.</p>
 	{% if tags %}
@@ -19,7 +21,9 @@
 
 {% set recommendedPosts = helpers.getSiblingContent(collections.blog, page) %}
 {% if recommendedPosts %}
-		<h2>Een andere interessante post...</h2>
+<br>
+<br>
+		<h3>Een andere interessante post...</h3>
 		<ul class="blog">
 	  	{% for item in recommendedPosts %}
 	    <li>
